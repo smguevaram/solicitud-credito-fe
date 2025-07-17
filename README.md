@@ -75,10 +75,4 @@ src/
 2. Write unit tests for new components
 3. Ensure TypeScript types are properly defined
 4. Run linting before committing: `npm run lint`
-
-      },
-      // other options...
-    },
-  },
-])
 ```
