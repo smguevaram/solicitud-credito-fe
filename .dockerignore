@@ -1,0 +1,118 @@
+# Archivos y directorios a ignorar durante el build de Docker
+
+# Dependencias
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist
+build
+
+# Archivos de desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+
+# Coverage directory usado por herramientas como istanbul
+coverage
+
+# Directorio de dependencias de runtime de nyc test coverage
+.nyc_output
+
+# Directorio de instrumentación de Grunt
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# Configuración de node-waf
+.lock-wscript
+
+# Directorio de addons binarios compilados
+build/Release
+
+# Archivos de dependencias
+.npm
+
+# Archivos de configuración de eslint
+.eslintcache
+
+# Archivos opcionales de npm cache
+.npm
+
+# Archivos opcionales de eslint cache
+.eslintcache
+
+# Cache de microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Cache de REPL opcional de .NET Core
+.dotnet/
+
+# Cache de parcel-bundler
+.cache
+.parcel-cache
+
+# Salida de Next.js
+.next
+
+# Salida de Nuxt.js
+.nuxt
+
+# Archivos de Gatsby
+.gatsby
+
+# Archivos de vuepress build
+.vuepress/dist
+
+# Directorio serverless webpack
+.serverless
+
+# Directorio de cache de FuseBox
+.fusebox/
+
+# Archivos locales de DynamoDB
+.dynamodb/
+
+# Archivos de TernJS port
+.tern-port
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Documentación
+README.md
+*.md
+
+# Archivos de prueba
+__tests__
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
